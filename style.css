@@ -67,8 +67,16 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background-color: hsl(0, 0%, 86%);
+}
+
 .equal{
     background-color: orange;
     box-shadow: 2px 3px hsl(39, 100%, 45%);
 
+}
+
+.equal:hover{
+    background-color: hsl(39, 100%, 40%);
 }
